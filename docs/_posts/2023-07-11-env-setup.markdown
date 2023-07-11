@@ -30,7 +30,7 @@ The JDK version we recommend to use is 18.0.2.1. **Please DO NOT use other versi
 
 Open the installation package, and follow the instructions as appeared to finish the installation.
 
-![install](\imgs\2023-07-11-env-setup\install.png)
+![install](/imgs/2023-07-11-env-setup/install.png)
 
 #### Step 3
 
@@ -38,17 +38,17 @@ To verify the completion of your installation, open “Command Prompt”, enter 
 **[Note: there is a blank space between `java` and `-version`].**
 You should see the similar result as following screenshot:
 
-![java-success](\imgs\2023-07-11-env-setup\java-success.png)
+![java-success](/imgs/2023-07-11-env-setup/java-success.png)
 
 **Note: If you see the following output, please go to `Appendix I` for help!**
 
-![java-failed](\imgs\2023-07-11-env-setup\java-failed.png)
+![java-failed](/imgs/2023-07-11-env-setup/java-failed.png)
 
 #### Step 4
 
 Enter `java --list-modules | findstr "jdk.jshell"`. It should show the output as `jdk.jshell@18.0.2.1` (see screenshot below).
 
-![jshell-success](\imgs\2023-07-11-env-setup\jshell-success.png)
+![jshell-success](/imgs/2023-07-11-env-setup/jshell-success.png)
 
 #### Congratulations! You successfully have setup the Java environment!
 
@@ -64,13 +64,13 @@ Go to: [Eclipse Download Page](https://www.eclipse.org/downloads/packages/)
 
 Find “Eclipse IDE for Java Developers” section first, then click on the `Windows x86_64` shown in the picture below:
 
-![eclipse-dl](\imgs\2023-07-11-env-setup\eclipse-dl.png)
+![eclipse-dl](/imgs/2023-07-11-env-setup/eclipse-dl.png)
 
 #### Step 3:
 
 Click `Download` button (If you want to change the mirror for a better connection, just do it 😊).
 
-![eclipse-dl-2](\imgs\2023-07-11-env-setup\eclipse-dl-2.png)
+![eclipse-dl-2](/imgs/2023-07-11-env-setup/eclipse-dl-2.png)
 
 #### Step 4: 
 
@@ -81,7 +81,7 @@ Extract file you just downloaded, and move it to folder `C:\Program Files`. You�
 
 Open *Eclipse*, you should see a prompt windows similar like the screenshot below. You can choose to use the default Workspace path or change to a customized directory. Hit “Launch” after you feel satisfied with the directory.
 
-![eclipse-start](\imgs\2023-07-11-env-setup\eclipse-start.png)
+![eclipse-start](/imgs/2023-07-11-env-setup/eclipse-start.png)
 
 #### Step 6:
 
@@ -89,9 +89,9 @@ Now you should be ready to play with *Eclipse*. 😊
 
 In menu on the top, click `File → New → Java Project`. In the new Dialog Window, fill the project name: `MyFirstJavaProject`, then hit Finish (You may want to refer to the screenshot below).
 
-![create-project](\imgs\2023-07-11-env-setup\create-project.png)
+![create-project](/imgs/2023-07-11-env-setup/create-project.png)
 
-![create-project-2](\imgs\2023-07-11-env-setup\create-project-2.png)
+![create-project-2](/imgs/2023-07-11-env-setup/create-project-2.png)
 
 #### Step 7:
 
@@ -99,7 +99,7 @@ Select `MyFirstJavaProject ` project we just created in left panel of *Eclipse*.
 
 Filling the Class name using `FirstJavaProgram`, and check with the option called:  `public tactic void main(String[] args)`, then hit `Finish` button. You may want to refer to the screenshot below:
 
-![create-class](\imgs\2023-07-11-env-setup\create-class.png)
+![create-class](/imgs/2023-07-11-env-setup/create-class.png)
 
 #### Step 8:
 
@@ -111,15 +111,15 @@ System.out.println("Hello World!");
 
 Now your program looks like:
 
-![helloworld](\imgs\2023-07-11-env-setup\helloworld.png)
+![helloworld](/imgs/2023-07-11-env-setup/helloworld.png)
 
 Then, click on the button:
 
-![run-program](\imgs\2023-07-11-env-setup\run-program.png)
+![run-program](/imgs/2023-07-11-env-setup/run-program.png)
 
 Your console now looks like:
 
-![console](\imgs\2023-07-11-env-setup\console.png)
+![console](/imgs/2023-07-11-env-setup/console.png)
 
 #### Congratulations! You successfully have setup the Eclipse environment!
 
@@ -142,10 +142,10 @@ Copy your JDK path and append the name of **bin folder**, it should be as follow
 
 Search for Environment Variables and open it.
 
-![env-variable](\imgs\2023-07-11-env-setup\env-variable.png)
+![env-variable](/imgs/2023-07-11-env-setup/env-variable.png)
 
 #### Step 4:
 
 Add the path you copied in Step 2 in the `PATH` variable in System Variables. Remember to save everything.
 
-![env-variable-2](\imgs\2023-07-11-env-setup\env-variable-2.png)
+![env-variable-2](/imgs/2023-07-11-env-setup/env-variable-2.png)
