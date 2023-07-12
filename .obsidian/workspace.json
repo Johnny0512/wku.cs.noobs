@@ -11,7 +11,7 @@
             "id": "856dc781847bbb8b",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
@@ -138,20 +138,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "856dc781847bbb8b",
+  "active": "9cb42aa462478a68",
   "lastOpenFiles": [
+    "docs/_site/assets/minima-social-icons.svg",
     "docs/_site/jekyll/update/2023/07/11/welcome-to-jekyll.html",
     "docs/_site/jekyll/update/2023/07/11",
     "docs/_site/jekyll/update/2023/07",
     "docs/_site/jekyll/update/2023",
     "docs/_site/jekyll/update",
-    "docs/_site/assets/minima-social-icons.svg",
     "docs/_site/assets/main.css",
     "docs/_site/about/index.html",
     "docs/_site/jekyll",
     "docs/_site/index.html",
     "docs/_site/feed.xml",
-    "docs/_site/assets",
     "docs/Index.md",
     "Index.md"
   ]
